@@ -4,8 +4,53 @@
         <a href="/user-list"><button class="btn rounded-pill w-100 btn-primary border-0" style="background-color: #b74062; font-weight: 500;">Users</button></a>
 
     </div>
-    <div class="col m-0 rounded-3 m-2" style="background-color: #f9f5f4;">
-        User List
-        <a href="/user-add"><button class="btn rounded-pill w-100 btn-primary border-0" style="background-color: #b74062; font-weight: 500;">Users</button></a>
+    <div class="col m-0 rounded-3 m-2 p-3" style="background-color: #f9f5f4;">
+        <div class="d-flex aling-items-center justify-content-between">
+            <p class="m-0 fs-3">User Details</p>
+            <a href="/user-add"><button class="btn rounded-pill btn-primary border-0" style="background-color: #b74062; font-weight: 500;">Add user</button></a>
+        </div>
+        <table class="w-100 mt-4 table">
+            <thead>
+                <tr>
+                    <th>User ID</th>
+                    <th>User Name</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Leo</td>
+                    <td>leo@gmail.com</td>
+                    <td>Active</td>
+                    <td>
+                        <button class="btn rounded-pill btn-primary border-0" style="background-color: #b74062; font-weight: 500;">Edit</button>
+                        <button class="btn rounded-pill btn-primary border-0" style="background-color: #b74062; font-weight: 500;">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Leo</td>
+                    <td>leo@gmail.com</td>
+                    <td>Active</td>
+                    <td>
+                        <button class="btn rounded-pill btn-primary border-0" style="background-color: #b74062; font-weight: 500;">Edit</button>
+                        <button class="btn rounded-pill btn-primary border-0" style="background-color: #b74062; font-weight: 500;">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Leo</td>
+                    <td>leo@gmail.com</td>
+                    <td>Active</td>
+                    <td>
+                        <a href="user-add/1"><button class="btn rounded-pill btn-primary border-0" style="background-color: #b74062; font-weight: 500;">Edit</button></a>
+                        <button class="btn rounded-pill btn-primary border-0" style="background-color: #b74062; font-weight: 500;">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </div>
